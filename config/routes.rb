@@ -16,7 +16,12 @@ Rails.application.routes.draw do
   end
 
   namespace :admin do
-    resources :products
+    resources :products do
+      member do
+        patch :move_up
+        patch :move_down
+      end
+    end
   end
 
   root 'products#index'
