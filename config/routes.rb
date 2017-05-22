@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :cart_items
 
+  resources :orders
+
   resources :carts do
     collection do
       delete :clean
