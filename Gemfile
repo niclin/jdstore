@@ -36,6 +36,7 @@ gem 'acts_as_list'
 gem 'pry'
 gem 'awesome_rails_console'
 gem 'letter_opener', group: :development
+gem 'aasm'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
