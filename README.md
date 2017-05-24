@@ -35,6 +35,21 @@ $(document).on("turbolinks:load", function(){
 
 放到 layout 的 head 里面。
 
+### 解法 C
+把layout 的 `<body>` 改成
+
+`<body id="<%= “#{controller_name}-#{action_name}"%>">`
+
+这样就可以在全局载入的application.js 中指定只有这一页才执行的js code，例如：
+
+```
+$(document).on("turbolinks:load", function() {
+  if ( $("#products-show").length > 0 ) {
+    console.log("product-show");
+  }
+})
+```
+
 
 ## Asset Pipeline 好处
 
@@ -44,7 +59,7 @@ $(document).on("turbolinks:load", function(){
 4. pre-processing 功能: Sass 和 CoffeeScript，可以用其他语言写 CSS 和 JavaScript。
 
 ## 三个Jquery小插件
-1. [Autosize (将输入框依照行数改变高度)](http://www.jacklmoore.com/autosize/)
-2. [Countdown (倒数计时)](http://hilios.github.io/jQuery.countdown/)
+1.   [Autosize (将输入框依照行数改变高度)](http://www.jacklmoore.com/autosize/)
+2.   [Countdown (倒数计时)](http://hilios.github.io/jQuery.countdown/)
 3. [WoW(淡入淡出动画特效)](https://github.com/matthieua/WOW)
 
