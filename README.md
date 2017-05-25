@@ -38,7 +38,7 @@ $(document).on("turbolinks:load", function(){
 ### 解法 C
 把layout 的 `<body>` 改成
 
-`<body id="<%= “#{controller_name}-#{action_name}"%>">`
+`<body id="<%= "#{controller_name}-#{action_name}"%>">`
 
 这样就可以在全局载入的application.js 中指定只有这一页才执行的js code，例如：
 
