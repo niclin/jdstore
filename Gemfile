@@ -37,6 +37,7 @@ gem 'letter_opener', group: :development
 gem 'aasm'
 gem 'rucaptcha'
 gem 'dalli'
+gem 'impressionist'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

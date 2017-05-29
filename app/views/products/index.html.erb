@@ -9,6 +9,7 @@
         <% end %>
       <% end %>
       <%= product.title %> ￥ <%= product.price %>
+      總瀏覽量：<%= product.impressionist_count(:filter=>:session_hash) %>
     </div>
   <% end %>
 </div>

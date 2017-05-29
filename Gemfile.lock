@@ -87,6 +87,8 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    impressionist (1.5.2)
+      nokogiri (~> 1.6)
     jbuilder (2.6.0)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
@@ -217,6 +219,7 @@ DEPENDENCIES
   dalli
   devise
   font-awesome-rails
+  impressionist
   jbuilder (~> 2.5)
   jquery-rails
   letter_opener
