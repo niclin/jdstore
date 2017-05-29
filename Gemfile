@@ -35,6 +35,8 @@ gem 'pry'
 gem 'awesome_rails_console'
 gem 'letter_opener', group: :development
 gem 'aasm'
+gem 'rucaptcha'
+gem 'dalli'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
