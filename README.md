@@ -63,3 +63,13 @@ $(document).on("turbolinks:load", function() {
 2.   [Countdown (倒数计时)](http://hilios.github.io/jQuery.countdown/)
 3. [WoW(淡入淡出动画特效)](https://github.com/matthieua/WOW)
 
+## 5/29 Nic-live
+
+## 可参考网站:
+* [Rails Cast](http://railscasts.com/): Gem的使用方法。[比较新的更新放在Youtube](https://www.youtube.com/user/RailscastsReloaded)
+
+
+* [RubyFlow](http://www.rubyflow.com/): Rails的社群，可以看一下这边的讨论
+
+
+* [GoRails](https://gorails.com/): 知识点的视频解说
